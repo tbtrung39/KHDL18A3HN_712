@@ -5,7 +5,7 @@
 - Chọn 1 folder rỗng chuột phải chọn gitbash để clone git repository về máy với dòng lệnh bên dưới
 
 ```
-git clone https://github.com/tbtrung39/KHDL18A3HN_16.git
+git clone https://github.com/tbtrung39/KHDL18A3HN_712.git
 ```
 
 **LƯU Ý:** Nếu chưa sử dụng Gitbash trên máy bao giờ, Gitbash lúc này sẽ yêu cầu đăng nhập vào tài khoản git. Bắt buộc phải sử dụng tài khoản git gắn với gmail sinh viên được nhà trường cấp
