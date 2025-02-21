@@ -1,10 +1,11 @@
-thang = int(input('Nhap thang: '))
-if thang == 1 or thang == 3 or thang == 5 or thang == 7 or thang == 8 or thang == 10 or thang == 12:
-    ngay = 31
-elif thang == 4 or thang == 6 or thang == 9 or thang == 11:
-    max_day = 30
-elif thang == 2:
-    max_day = 28
-else:
-    print('Vui lòng nhập lại')
-print(thang,'có',ngay,'ngàyngày')
+ma_sv = input("Nhập mã số sinh viên: ")
+ho_ten = input("Nhập họ tên: ")
+que_quan = input("Nhập quê quán: ")
+nam_sinh = int(input("Nhập năm sinh: "))
+diem_tb = float(input("Nhập điểm trung bình: "))
+print("\nThông tin sinh viên:")
+print("Mã số sinh viên:", ma_sv)
+print("Họ tên:", ho_ten)
+print("Quê quán:", que_quan)
+print("Năm sinh:", nam_sinh)
+print("Điểm trung bình:", diem_tb)
