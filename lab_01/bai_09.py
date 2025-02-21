@@ -1,0 +1,7 @@
+x, y, z = map(float, input("Nhap toa do (x y z): ").split())
+doi_xung_Oxy = (x, y, -z)
+doi_xung_Oxz = (x, -y, z)
+doi_xung_Oyz = (-x, y, z)
+print("Doi xung qua Oxy: ",doi_xung_Oxy)
+print("Doi xung qua Oxz: ",doi_xung_Oxz)
+print("Doi xung qua Oyz: ",doi_xung_Oyz)
