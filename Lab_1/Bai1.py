@@ -1,0 +1,11 @@
+#Bai1
+ma_sv = input("Nhập mã số sinh viên: ")
+ho_va_ten = input("Nhập họ và tên sinh viên: ")
+que_quan = input("Nhập quê quán: ")
+nam_sinh = int(input("Nhập năm sinh: "))
+diem_trung_binh = float(input("Nhập điểm trung bình các năm học: "))
+print("Mã số sinh viên:", ma_sv)
+print("Họ tên:", ho_va_ten)
+print("Quê quán:", que_quan)
+print("Năm sinh:", nam_sinh)
+print("Điểm trung bình:", diem_trung_binh)

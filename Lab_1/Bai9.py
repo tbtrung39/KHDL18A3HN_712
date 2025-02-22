@@ -1,0 +1,10 @@
+#Bai9
+x = float(input("Nhập x: "))
+y = float(input("Nhập y: "))
+z = float(input("Nhập z: "))
+oxy = (x, y, -z)
+oxz = (x, -y, z)
+oyz = (-x, y, z)
+print("Đối xứng qua mặt phẳng Oxy là:", oxy)
+print("Đối xứng qua mặt phẳng Oxz là:", oxz)
+print("Đối xứng qua mặt phẳng Oyz là:", oyz)
