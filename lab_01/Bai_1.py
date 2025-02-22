@@ -1,0 +1,5 @@
+ma_sv= int(input("Nhập mã sinh viên:"))
+ho_ten = input("Nhập họ và tên :")
+que_quan = input("Nhập quê quán :")
+nam_sinh = int(input("Nhập năm sinh:"))
+diem_tb_cac_nam_hoc = input("Nhập điểm trung bình các năm học :")
