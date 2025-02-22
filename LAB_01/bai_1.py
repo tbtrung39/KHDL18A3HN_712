@@ -1,0 +1,8 @@
+ho_va_ten = input("nhập họ và tên sinh viên")
+ma_so_sinh_vien = int(input("nhập mã số sinh viên"))
+que_quan = input("nhập quê quán")
+diem_trung_binh = float(input("nhập điểm trung bình của sinh viên:"))
+print("họ và tên sinh viên:",ho_va_ten)
+print("mã số sinh viên là:",ma_so_sinh_vien)
+print("quê quán sinh viên là:",que_quan)
+print("diểm trung bình của sinh viên là:",diem_trung_binh)
