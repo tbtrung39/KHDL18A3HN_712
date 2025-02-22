@@ -1,9 +1,9 @@
 # Bài3 
 thu = float(input("Nhập thứ (1-7): "))
 if thu == 1:
-    print("Chủ nhậtt")
+    print("Chủ nhật")
 elif thu == 2:
-    print("")
+    print("Thứ hai")
 elif thu == 3:
     print("Thứ ba")
 elif thu == 4:
