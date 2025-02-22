@@ -1,0 +1,7 @@
+x,y,z=map(int,input("nhập tọa độ xyz của 1 điểm: ").split())
+oxy=(x,y,-z)
+oxz=(x,-y,z)
+oyz=(-x,y,z)
+print("tọa độ của điểm đối xứng với điểm đã nhập qua mặt phẳng Oxy là: ",oxy)
+print("tọa độ của điểm đối xứng với điểm đã nhập qua mặt phẳng Oxz là: ",oxz)
+print("tọa độ của điểm đối xứng với điểm đã nhập qua mặt phẳng Oyz là: ",oyz)
