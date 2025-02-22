@@ -1,4 +1,8 @@
-x1, y1, z1 = map(float,input("nhập tọa độ vecto a: ").split())
-x2, y2, z2 = map(float,input("nhập tọa độ vecto b: ").split())
-tvh=x1*x2+y1*y2+z1*z2
-print(f"tích vô hướng của 2 vecto a và b là: {tvh:.2f}")
+k= float(input("nhập bán kính R vào từ bàn phím: "))
+ao= float(input("nhập chiều cao H vào từ bàn phím: "))
+txq=cao*2*3.14*bk
+ttp=dtxq+2*3.14*bk*bk
+=cao*3.14*bk*bk
+rint("diện tích xung quanh của khối trụ là: %0.2f"%dtxq)
+rint("diện tích toàn phần của khối trụ là: %0.2f"%dttp)
+rint("thể tích của khối trụ: là %0.2f"%v)
