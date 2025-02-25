@@ -1,10 +1,18 @@
-ma_sv = int(input("Nhap ma so sinh vien: "))
-ho_ten = input("Nhap ho ten sinh vien: ")
-que_quan = input("Nhap que quan sinh vien: ")
-nam_sinh = input("Nhap nam sinh: ")
-diem_tb = float(input("Nhap diem trung binh cac nam hoc: "))
-print("Ma so sinh vien: ", ma_sv)
-print("Ho ten sinh vien: ", ho_ten)
-print("Que quan sinh vien: ", que_quan)
-print("Nam sinh: ", nam_sinh)
-print("Diem trung binh cac nam hoc: ", diem_tb)
+nam = int(input("Nhap nam: "))
+thang = int(input("Nhap thanh ban muon kiem tra: "))
+#Nam nhuan:
+if (nam % 4 == 0 and nam %100 != 0) or (nam % 400 == 0):
+    if thang % 2 == 0 and thang != 2:
+        print(f"{thang} co 30 ngay")
+    elif thang % 2 != 0:
+        print(f"{thang} co 31 ngay")
+    elif thang == 2:
+        print(f"{thang} co 29 ngay")
+#Nam khong nhuan:
+else:
+    if thang % 2 == 0 and thang != 2:
+        print(f"{thang} co 30 ngay")
+    elif thang % 2 != 0:
+        print(f"{thang} co 31 ngay")
+    elif thang == 2:
+        print(f"{thang} co 28 ngay")

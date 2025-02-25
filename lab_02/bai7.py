@@ -1,9 +1,16 @@
-a = float(input("Nhap a: "))
-b = float(input("Nhap b "))
-c = float(input("Nhap c: "))
-x_dinh = -b / (2 * a)
-y_dinh = a * x_dinh**2 + b * x_dinh + c
-print(f"Toa do dinh cua pt bac 2: ({x_dinh:.2f}, {y_dinh:.2f})")
+Diem_TK = float(input("Nhập điểm tổng kết: "))
+if 0.0 <= Diem_TK <= 3.0:
+    print("Loại Kém")
+elif Diem_TK == 4.0:
+    print("Loại Yếu")
+elif 5.0 <= Diem_TK <= 6.0:
+    print("Loại Trung bình")
+elif 7.0 <= Diem_TK <= 8.0:
+    print("Loại Khá")
+elif 9.0 <= Diem_TK <= 10.0:
+    print("Loại Giỏi")
+else:
+    print("Điểm không hợp lệ!")
 
 
 

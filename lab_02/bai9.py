@@ -1,7 +1,11 @@
-x, y, z = map(float, input("Nhap toa do (x y z): ").split())
-doi_xung_Oxy = (x, y, -z)
-doi_xung_Oxz = (x, -y, z)
-doi_xung_Oyz = (-x, y, z)
-print("Doi xung qua Oxy: ",doi_xung_Oxy)
-print("Doi xung qua Oxz: ",doi_xung_Oxz)
-print("Doi xung qua Oyz: ",doi_xung_Oyz)
+so_kw = int(input("Nhập số KW điện tiêu thụ: "))
+if 0 <= so_kw <= 100:
+    don_gia = 2000
+elif 101 <= so_kw <= 200:
+    don_gia = 2500
+elif 201 <= so_kw <= 300:
+    don_gia = 3000
+else:
+    don_gia = 5000
+tien_dien = so_kw * don_gia
+print("Tiền điện phải trả là:", tien_dien, "đồng")

@@ -1,3 +1,6 @@
-x = float(input("Nhập số x: "))
-bieu_thuc = (-x + (x**2 + 4)**(1/2)) / (x**4 + 1)**(1/7)
-print("Giá trị của biểu thức: ", bieu_thuc)
+n = int(input("Nhap so nguyen: "))
+if n >= 100:
+    n = (n//100) % 10
+else:
+    n = 0
+print(f"Chu so hang tram cua {n} la: {n}")

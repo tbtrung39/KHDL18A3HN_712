@@ -1,7 +1,8 @@
-t = float(input("Nhap thoi gian su dung bong den(giay): "))
-U = 220 
-I = 2.7 
-gia_dien = 7000 
-dien_nang = (U*I*t) / (3600*1000)
-tien_dien = dien_nang*gia_dien
-print(f"So tien dien phai tra: {tien_dien:.2f} dong")
+a = int(input("Nhập 1 số nguyên có 3 chữ số"))
+if a < 100 or a > 999:
+    print("Nhập sai số nguyên có 3 chữ số")
+else:
+    hang_tram = a // 100
+    hang_chuc = (a // 10) % 10
+    hang_don_vi = a % 10
+    print("Số nguyên trên đọc là:", hang_tram , "trăm" , hang_chuc , "mươi" , hang_don_vi )

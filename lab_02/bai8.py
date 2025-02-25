@@ -1,6 +1,12 @@
-x1, y1 = map(float, input("Nhap toa do dinh A (x1, y1): ").split())
-x2, y2 = map(float, input("Nhap toa do dinh B (x2, y2): ").split())
-x3, y3 = map(float, input("Nhap toa do dinh C (x3, y3): ").split())
-Gx = (x1 + x2 + x3) / 3
-Gy = (y1 + y2 + y3) / 3
-print(f"Tọa độ trọng tâm G là: ({Gx:.2f}, {Gy:.2f})")
+luong_can_ban = 1350000
+tham_nien_ct = int(input("Nhập số tháng thâm niên công tác: "))
+if tham_nien_ct < 12:
+    he_so = 2.34
+elif 12 <= tham_nien_ct < 36:
+    he_so = 3.33
+elif 36 <= tham_nien_ct < 60:
+    he_so = 3.66
+else:
+    he_so = 4.98
+luong = he_so * luong_can_ban
+print("Lương của nhân viên là:", luong, "đồng")
