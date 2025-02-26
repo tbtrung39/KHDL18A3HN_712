@@ -1,0 +1,11 @@
+print("Chương trình kiểm tra số ngày trong một tháng")
+print("Nhập tháng (1-12):", end=" ")
+thang = int(input())
+if thang in [1, 3, 5, 7, 8, 10, 12]:
+    print("Tháng", thang, "có 31 ngày.")
+elif thang in [4, 6, 9, 11]:
+    print("Tháng", thang, "có 30 ngày.")
+elif thang == 2:
+    print("Tháng 2 có 28 hoặc 29 ngày (nếu là năm nhuận).")
+else:
+    print("Tháng không hợp lệ! Vui lòng nhập từ 1 đến 12.")
