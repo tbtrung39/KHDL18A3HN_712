@@ -1,0 +1,10 @@
+
+x = int(input("Nhập hoành độ x của điểm M: "))
+y = int(input("Nhập tung độ y của điểm M: "))
+z = int(input("Nhập cao độ z của điểm M: "))
+M_oxy = (x, y, -z)  
+print(f"Điểm đối xứng với M qua mặt phẳng Oxy: {M_oxy}")
+M_oxz = (x, -y, z)  
+print(f"Điểm đối xứng với M qua mặt phẳng Oxz: {M_oxz}")
+M_oyz = (-x, y, z)  
+print(f"Điểm đối xứng với M qua mặt phẳng Oyz: {M_oyz}")
