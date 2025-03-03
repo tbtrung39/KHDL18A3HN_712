@@ -1,0 +1,11 @@
+# Nhập mã số sinh viên và in ra
+ma_sinh_vien = input("Nhập mã số sinh viên: ")
+print(f"Mã số sinh viên: {ma_sinh_vien}")
+ho_ten = input("Nhập họ tên sinh viên: ")
+print(f"Họ tên sinh viên: {ho_ten}")
+que_quan = input("Nhập quê quán sinh viên: ")
+print(f"Quê quán: {que_quan}")
+nam_sinh = int(input("Nhập năm sinh sinh viên: "))
+print(f"Năm sinh: {nam_sinh}")
+diem_tb = float(input("Nhập điểm trung bình: "))
+print(f"Điểm trung bình: {diem_tb:.2f}")
