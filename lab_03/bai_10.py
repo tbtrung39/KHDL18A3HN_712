@@ -1,25 +1,26 @@
 while True:
-    n = int(input("Nhap n nguyen duong: "))
-    if n > 0:
+    so_n = int(input("Nhap n nguyen duong: "))
+    if so_n > 0:
         break
     print("n phai la so nguyen duong. Vui long nhap lai!")
 
-print(f"{n} = ", end="")
-i = 2
-first = True
+print(f"{so_n} = ", end="")
+so_dau = True
 
-while n > 1:
-    count = 0
-    while n % i == 0:
-        count += 1
-        n //= i
-    if count > 0:
-        if first:
-            first = False
-        else:
+for i in range(2, so_n + 1):
+    so_mu = 0
+    while so_n % i == 0:
+        so_mu += 1
+        so_n //= i
+    
+    if so_mu > 0:
+        if not so_dau:
             print(" x ", end="")
-        if count == 1:
+        if so_mu == 1:
             print(i, end="")
         else:
-            print(f"{i}^{count}", end="")
-    i += 1
+            print(f"{i}^{so_mu}", end="")
+        so_dau = False
+    
+    if so_n == 1:
+        break
