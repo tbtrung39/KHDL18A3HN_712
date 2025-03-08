@@ -29,4 +29,4 @@ while True:
     if tt==0:
         break
     else:
-        os.system('clscls')
+        os.system('cls')
