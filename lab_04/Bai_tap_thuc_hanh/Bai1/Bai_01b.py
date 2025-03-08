@@ -1,0 +1,9 @@
+n=0
+while n <= 0:
+    n = int(input("Nhập số nguyên dương n: "))
+S5 = 0
+i = 0
+while i <= n:
+    S5 += (2 * i + 1) ** 3
+    i += 1
+print("S5 =", S5)
