@@ -12,11 +12,11 @@ while True:
 
     chon=int(input("Chọn đồ uống mà bạn cần:"))
     if chon ==1:
-        print("Bạn đã chọn đồ uốn cafe")
+        print("Bạn đã chọn đồ uống cafe")
     elif chon ==2:
         print("Bạn đã chọn đồ uống cam vắt")
     elif chon ==3:
-        print("Bạn đã chọn đồ uoóng nước ép cà rốt")
+        print("Bạn đã chọn đồ uống nước ép cà rốt")
     elif chon ==4:
         print("Bạn đã chọn đồ uống nước lọc")
     elif chon ==5:
