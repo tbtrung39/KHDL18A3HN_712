@@ -1,0 +1,1 @@
+a=list(map(int,input("nhập a: ").split()));ket_qua=[(i+1,j+1)for i in range(len(a))for j in range(i+1,len(a))if a[i]+1==a[j]];print("Các cặp chỉ số thỏa mãn là:",ket_qua if ket_qua else"Không có cặp chỉ số nào thỏa mãn điều kiện.")

@@ -1,0 +1,1 @@
+n=int(input());sinh_vien=[(input(),input(),round(float(input())))for _ in range(n)];sinh_vien.sort(key=lambda x:x[2],reverse=True);print("\nDanh sách sinh viên sau khi sắp xếp theo điểm giảm dần:");[print(f"MSV: {sv[0]}, Tên: {sv[1]}, Điểm: {sv[2]}")for sv in sinh_vien]
