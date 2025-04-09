@@ -1,0 +1,6 @@
+m = input("Nhap so nguyen m: ")
+n = input("Nhap so nguyen n: ")
+chu_so_chung = set(m)&set(n)
+total_sum = sum(int(chu_so) for chu_so in chu_so_chung)
+print("Cac chu so chung:", sorted(chu_so_chung))
+print("Tong chu so chung:", total_sum)
