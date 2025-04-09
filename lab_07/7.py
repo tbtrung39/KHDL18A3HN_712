@@ -1,0 +1,8 @@
+chuoi = input("Nhập chuỗi ký tự (chữ và số, không cách): ")
+a_input = input("Nhập các phần tử cho tập hợp A (cách nhau bằng dấu cách): ")
+b_input = input("Nhập các phần tử cho tập hợp B (cách nhau bằng dấu cách): ")
+A = set(a_input.split())
+B = set(b_input.split())
+print("Tập hợp A:", A)
+print("Tập hợp B:", B)
+print("Các phần tử chung:", A & B)
