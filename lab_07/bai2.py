@@ -1,0 +1,5 @@
+numbers = input("Nhập các số nguyên cách nhau bởi dấu cách: ")
+numbers_list = list(map(int, numbers.split()))
+A = set(numbers_list)
+print('Danh sách numbers: ', numbers_list)
+print("Tập hợp A: ", A)
