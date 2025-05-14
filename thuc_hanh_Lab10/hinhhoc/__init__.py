@@ -1,0 +1,2 @@
+from my_square import tinh_chu_vi_hv,tinh_dien_tich_hv
+from my_Triangle import la_tam_giac,ChuviTamGiac,S_TamGiac
