@@ -1,0 +1,10 @@
+import my_Triange
+a = int(input("Nhap a: "))
+b = int(input("Nhap b: "))
+c = int(input("Nhap c: "))
+if my_Triange.is_TamGiac(a,b,c):
+    print("Ba cạnh tạo thành một tam giác.")
+    print("Chu vi tam giác:",my_Triange.ChuviTamGiac(a,b,c))
+    print("Diện tích tam giác:",my_Triange.S_TamGiac(a,b,c))
+else:
+    print("Ba cạnh không tạo thành một tam giác.")
