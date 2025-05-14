@@ -1,0 +1,11 @@
+from doicoso import doicoso1,doicoso2
+n = doicoso1.nhap_so_nguyen()
+print(f"Nhi phan: {doicoso1.doi_sang_nhi_phan(n)}")
+print(f"Bat phan: {doicoso1.doi_sang_bat_phan(n)}")
+print(f"Thap luc phan: {doicoso1.doi_sang_thap_luc_phan(n)}")
+chuoi_nhi_phan = input("Nhap chuoi nhi phan: ")
+print("Nhi phan sang 10:", doicoso2.doi_2_sang_10(chuoi_nhi_phan))
+chuoi_bat_phan = input("Nhap chuoi bat phan: ")
+print("Bat phan sang 10:", doicoso2.doi_8_sang_10(chuoi_bat_phan))
+chuoi_thap_luc = input("Nhap chuoi thap luc phan: ")
+print("Thap luc phan sang 10:", doicoso2.doi_16_sang_10(chuoi_thap_luc))
