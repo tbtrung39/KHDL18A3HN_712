@@ -1,0 +1,10 @@
+import giaipt
+print("Giai phuong trinh bac nhat 1 an: ax + b = 0")
+a = float(input("Nhap a:"))
+b = float(input("Nhap b:"))
+print(giaipt.giai_pt_bac_nhat_1_an(a, b))
+print("Giai phuong trinh bac hai: ax^2 + bx + c = 0")
+a = float(input("Nhap a: "))
+b = float(input("Nhap b: "))
+c = float(input("Nhap c: "))
+print(giaipt.giai_pt_bac_2(a, b, c))
