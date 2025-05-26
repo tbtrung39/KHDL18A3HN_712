@@ -1,0 +1,6 @@
+A=set()
+while(x:=input("Nhập phần tử (bấm enter để kết thúc): "))!='':A.add(float(x)if'.'in x and x.replace('.', '', 1).isdigit()else int(x)if x.isdigit()else x)
+nguyen=sum(isinstance(x,int)for x in A)
+thuc=sum(isinstance(x,float)for x in A)
+chuoi=sum(isinstance(x,str)for x in A)
+print(f"Số nguyên: {nguyen}, Số thực: {thuc}, Số chuỗi: {chuoi}")
